@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BETA TESTER</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="home"><h1>BETA TESTER</h1></div>
+    <menu>
+        <li>not expensive</li>
+        <li>honesty</li>
+    </menu>
+    <pre>And many more</pre>
+    <div id="v1"><pre id="p1">You Matter</pre></div>
+    <br>
+    <div id="v2"><pre id="p1">Dont give up</pre></div>
+    <br>
+    <div id="v3"><pre id="p1">thats why we give you the best beta testing either</pre></div>
+    <br>
+    <br>
+    <p><a href="mailto:sooriyagodasenul@gmail.com">Send email</a></p>
+    <pre>explain the product we will our job after that</pre>
+    <button id="change">western time</button>
+    <div id="west">
+        <pre>8.30 pm to 10.00pm</pre>
+    </div>
+    <button id="changee">estern time</button>
+    <div id="estern">
+        <pre>10.00am to 11.30am</pre>
+    </div>
+    <script>
+        document.getElementById('change').addEventListener("click",function(){
+            if(document.getElementById('west').style.display == 'none'){
+                document.getElementById('west').style.display = 'flex'
+            }
+        })
+        document.getElementById('estern').style.display = 'none'
+        document.getElementById('changee').addEventListener("click",function(){
+            if(document.getElementById('estern').style.display == 'none'){
+                document.getElementById('estern').style.display = 'flex'
+            }
+        })
+        document.getElementById('estern').style.display = 'none'
+    </script>
+</body>
+</html>
